@@ -11,9 +11,12 @@ export default function Home() {
         </div>
 
 
-        <section className={'z-[2] h-screen w-full flex items-center justify-center mix-blend-difference'}>
+        <section className={'z-[2] h-screen w-full flex flex-col items-center justify-center mix-blend-difference'}>
             <h1 className={'z-[3] text-white font-[termina] font-medium text-[8vw] uppercase mix-blend-difference'}>
-                Studio Webowe
+                Studio
+            </h1>
+            <h1 className={'z-[3] text-white font-[termina] font-medium text-[8vw] uppercase mix-blend-difference'}>
+               Webowe
             </h1>
         </section>
     </div>
