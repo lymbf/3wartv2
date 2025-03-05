@@ -66,6 +66,8 @@ export const metadata: Metadata = {
 export default function RootLayout({children, header}: Readonly<{
     children: React.ReactNode;
     header: React.ReactNode;
+    imageModal: React.ReactNode;
+    kontakt: React.ReactNode;
 }>) {
     return (
         <html lang="en">
